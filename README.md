@@ -1,7 +1,9 @@
 # DEPI-Graduation-Project
 # CHURNSCOPE Dashboard
 
-![Dashboard Screenshot](./assets/screenshot.png)
+![Dashboard Screenshot](./assets/Capture1.PNG)
+![Dashboard Screenshot](./assets/Capture.PNG)
+![Dashboard Screenshot](./assets/Capture2.PNG)
 
 Professional Customer Churn Analysis Dashboard with Orange/Black Theme
 
