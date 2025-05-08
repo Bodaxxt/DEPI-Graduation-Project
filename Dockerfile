@@ -8,6 +8,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
+    python3-distutils \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements file first to leverage Docker layer caching
