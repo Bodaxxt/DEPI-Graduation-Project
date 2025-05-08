@@ -209,8 +209,8 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     
     analysis_type = st.radio(
-        "Select Analysis Type",
-        ["📊 Overview", "📈 Trends", "🔍 Deep Dive", "📌 Insights", "🔮 Predict Churn"],
+        "🔍 Select Analysis Type",
+        ["🏠 Overview", "📊 Overview", "📈 Trends", "🔍 Deep Dive", "📌 Insights", "🔮 Predict Churn"],
         index=0
     )
     
@@ -223,7 +223,24 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
 # Main content sections
-if analysis_type == "📊 Overview":
+if analysis_type == "🏠 Overview":
+    st.header("Welcome to CHURNSCOPE 📊")
+    st.markdown("""
+    ### What is CHURNSCOPE?
+    CHURNSCOPE is an advanced analytical system powered by AI to analyze customer data and predict churn risk.
+    
+    #### Why is this project important?
+    - 🔽 Reduce churn rate
+    - 💰 Increase revenue through better retention strategies
+    - 🧠 Use cutting-edge AI techniques like Random Forest & Clustering
+    
+    #### Who benefits from this system?
+    - Marketing teams
+    - Customer service departments
+    - Decision-makers in companies
+    """)
+
+elif analysis_type == "📊 Overview":
     st.header("📊 Dashboard Overview")
     
     # KPI cards
