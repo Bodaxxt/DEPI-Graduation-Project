@@ -27,7 +27,7 @@ from imblearn.over_sampling import RandomOverSampler
 from imblearn.pipeline import Pipeline as ImbPipeline
 from sklearn.metrics import roc_auc_score, classification_report
 import matplotlib.pyplot as plt
-
+import seaborn as sns
 
 # Set page config
 st.set_page_config(
