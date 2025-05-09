@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from PIL import Image
-from scipy.stats import chi2_contingency, pointbiserialr, ttest_ind
+
 from sklearn.cluster import KMeans
 import plotly.express as px
 import plotly.graph_objects as go
@@ -27,8 +27,8 @@ from imblearn.over_sampling import RandomOverSampler
 from imblearn.pipeline import Pipeline as ImbPipeline
 from sklearn.metrics import roc_auc_score, classification_report
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-from statsmodels.stats.proportion import proportions_ztest
 
 # Set page config
 st.set_page_config(
