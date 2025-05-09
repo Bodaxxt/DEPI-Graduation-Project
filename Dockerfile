@@ -14,8 +14,7 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements file first to leverage Docker layer caching
 COPY requirements.txt requirements.txt
 
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Copy the rest of the application code
 COPY . .
